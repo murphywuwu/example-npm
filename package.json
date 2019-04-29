@@ -1,8 +1,8 @@
 {
-  "name": "@scrabblescore/scrabblescore",
+  "name": "example-scrabblescore",
   "version": "1.0.9",
   "description": "Find the Scrabble score for a given word",
-  "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
+  "author": "Murphywuwu <murphywuwu@gmail.com> (https://github.com/murphywuwu)",
   "main": "index.js",
   "license": "ISC",
   "keywords": [],
