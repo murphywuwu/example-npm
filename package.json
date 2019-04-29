@@ -1,6 +1,6 @@
 {
   "name": "example-scrabblescore",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Find the Scrabble score for a given word",
   "author": "Murphywuwu <murphywuwu@gmail.com> (https://github.com/murphywuwu)",
   "main": "index.js",
@@ -11,6 +11,10 @@
     "test": "jest && eslint index.js 'test/**.js'",
     "lint": "eslint index.js 'test/**.js' --fix"
   },
+  "files": [
+    "test",
+    "index.js"
+  ],
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.5.0",
