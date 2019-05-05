@@ -1,6 +1,6 @@
 {
   "name": "example-scrabblescore",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "Find the Scrabble score for a given word",
   "author": "Murphywuwu <murphywuwu@gmail.com> (https://github.com/murphywuwu)",
   "main": "index.js",
@@ -15,7 +15,12 @@
     "test",
     "index.js"
   ],
-  "dependencies": {},
+  "peerDependencies": {
+    "react-router": "4.3.1"
+  },
+  "dependencies": {
+    "react": "16.8.0"
+  },
   "devDependencies": {
     "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -25,7 +30,8 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.5.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "react-router": "4.3.1"
   },
   "engines": {
     "node": ">= 8.3.0"
